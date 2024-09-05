@@ -1,0 +1,126 @@
+.admin-scheduling-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .admin-scheduling-container h1,
+  .admin-scheduling-container h2,
+  .admin-scheduling-container h3 {
+    color: #000000;
+  }
+  
+  .admin-scheduling-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .admin-scheduling-container h2 {
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .admin-scheduling-container h3 {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  
+  /* Form labels and dropdowns */
+  .admin-scheduling-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .admin-scheduling-container select,
+  .admin-scheduling-container input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+    box-sizing: border-box;
+  }
+  
+  .admin-scheduling-container select {
+    cursor: pointer;
+  }
+  
+  .admin-scheduling-container input[type="radio"] {
+    width: auto;
+    margin-right: 10px;
+  }
+  
+  /* Availability slots */
+  .availability-slot {
+    padding: 10px;
+    background-color: #eaf2f8;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .availability-slot label {
+    margin-left: 5px;
+    font-size: 1em;
+    color: #2c3e50;
+  }
+  
+  /* Session Type Container */
+  .session-type-container {
+    color:black
+  }
+  
+  .session-type-container label {
+    
+    display: block;
+    color: red;
+  }
+  
+  .session-type-container select {
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  .ss{
+    color: green;
+    font-size: 2rem;
+  }
+  /* Buttons */
+  .admin-scheduling-container button {
+    padding: 10px 20px;
+    background-color: #0c4e7b;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+  }
+  
+  .admin-scheduling-container button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .admin-scheduling-container {
+      padding: 15px;
+    }
+    
+    .admin-scheduling-container h1 {
+      font-size: 1.5em;
+    }
+    
+    .admin-scheduling-container select,
+    .admin-scheduling-container button {
+      font-size: 1em;
+    }
+  }
